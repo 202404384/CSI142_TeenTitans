@@ -4,14 +4,14 @@ public class Student {
     private int studentID;
     private double grade;
 
-
+    //initialises a student object with name,id,grade
     public Student (String name , int studentID , double grade)  {
         this.name = name;
         this.studentID = studentID;
         this.grade = grade;
     }
 
-
+//setter and getter methods
 
     public String getName() {
          return name;
