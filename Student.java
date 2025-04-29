@@ -3,7 +3,7 @@ public class Student {
 
     private String name;
     private int studentID;
-    private double grade;
+    private double score;
 
     //initialises a student object with name,id,grade
     public Student (String name , int studentID , double grade)  {
